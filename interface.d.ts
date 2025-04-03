@@ -1734,6 +1734,12 @@ export function song_wiki_summary(
   } & RequestBaseConfig,
 ): Promise<Response>
 
+export function song_wiki(
+  params: {
+    id: number | string
+  } & RequestBaseConfig,
+): Promise<Response>
+
 export function sheet_list(
   params: {
     id: number | string
